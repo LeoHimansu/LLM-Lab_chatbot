@@ -1,20 +1,15 @@
-
-# 2.	Use Gemini 1.5 Pro to summarize a given paragraph in 3–4 sentences.
+# 2.	Use gemini-2.5-flash to summarize a given paragraph in 3–4 sentences.
 
 import os
 from langchain_core.prompts import PromptTemplate
-from langchain_openai import ChatOpenAI
+from langchain_google_genai import ChatGoogleGenerativeAI
 from dotenv import load_dotenv
 
 load_dotenv()
 
 
-llm = ChatOpenAI(
-    model="gpt-3.5-turbo",
-    base_url="https://openrouter.ai/api/v1",
-    api_key=os.getenv("OPENROUTER_API_KEY"),
-    temperature=0.7
-)
+
+llm=ChatGoogleGenerativeAI(model="gemini-2.5-flash-lite",max_tokens=200)
 
 
 paragraph = """Artificial Intelligence has transformed numerous industries in recent years. 
