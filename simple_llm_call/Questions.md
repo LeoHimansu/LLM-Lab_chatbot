@@ -9,7 +9,7 @@
 6.	Use `gpt-4o-mini` to generate Python code for a simple calculator.
 7.	Use `nvidia/nemotron-nano-9b` to explain Blockchain technology in simple terms.
 8.	Use `Mixtral 8x7B` to generate a basic HTML webpage for a personal portfolio.
-9.	Use Gemini 1.5 Flash to create a math quiz with 5 questions.
+9.	Use `google/gemma` to create a math quiz with 5 questions.
 10.	Use GPT-4o to explain Cloud Computing and its types.
 11.	Use LLaMA 3 to generate a chatbot greeting message for a customer support system.
 12.	Use Mixtral 8x7B to generate a product description for a smartwatch.
